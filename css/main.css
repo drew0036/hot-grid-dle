@@ -27,9 +27,9 @@ body {
 }
 
 figure {
-  display: flex;
   margin: 0;
   position: relative;
+  overflow: hidden;
 }
 
 figcaption {
@@ -82,6 +82,10 @@ figcaption {
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  figcaption {
+    padding: .5rem;
   }
 
 }
